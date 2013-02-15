@@ -23,11 +23,13 @@ unlet b:current_syntax
 
 syn include @java syntax/java.vim
 
-syn match  rythmExprIdentifier "@"                nextgroup=rythmExpr
-syn match  rythmExprIdentifier /@[_A-Za-z0-9.?]\+/ nextgroup=rythmExpr
-syn match  rythmOneLineComment "@//.*"
-syn region rythmBlockComment   start=/@[*]/       end=/[*]@/
-syn match  rythmOverrided      "@@"
+syn match   rythmExprIdentifier "@" nextgroup=rythmExpr
+syn match   rythmExprIdentifier /@[_A-Za-z0-9.?]\+[ ]\+/ nextgroup=rythmExpr
+syn match   rythmOneLineComment "@//.*"
+syn region  rythmBlockComment   start=/@[*]/ end=/[*]@/
+syn match   rythmOverrided      "@@"
+syn keyword rythmElse           else contained
+syn match   rythmElseContainer "} else {" contains=rythmElse
 
 syn region rythmExpr matchgroup=rythmExprIdentifier start="("  end=")"
       \ contains=@java,rythmExpr contained nextgroup=rythmExpr
@@ -54,6 +56,7 @@ if version >= 508 || !exists("did_rythm_syn_inits")
   HiLink rythmOneLineComment  Comment
   HiLink rythmBlockComment    Comment
   HiLink rythmOverrided       Default
+  HiLink rythmElse            Identifier
 
   delcommand HiLink
 endif
