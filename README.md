@@ -1,7 +1,7 @@
 Rythm template engine syntax plugin for Vim
 ===========================================
 
-![RythmVim screenshot](http://i.imgur.com/6po9oul.png)
+![rythm.vim screenshot](http://i.imgur.com/6po9oul.png)
 
 Installation
 ------------
@@ -10,7 +10,7 @@ Installation
 
 * Using [pathogen](https://github.com/tpope/vim-pathogen)
 or [vundle](https://github.com/gmarik/vundle) from
-https://github.com/rdolgushin/RythmVim
+https://github.com/rdolgushin/rythm.vim
 * Standard [Vim way](http://vimdoc.sourceforge.net/htmldoc/usr_05.html#add-plugin)
 
 Usage

@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language:	Rythm template
 " Maintainer:	Roman Dolgushin <rd@roman-dolgushin.ru>
-" URL:		http://github.com/rdolgushin/RythmVim
+" URL:		http://github.com/rdolgushin/rythm.vim
 " ---
 " Based on https://github.com/gre/play2vim/blob/master/syntax/play2-html.vim
 
