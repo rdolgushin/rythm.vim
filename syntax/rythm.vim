@@ -24,7 +24,7 @@ unlet b:current_syntax
 syn include @java syntax/java.vim
 
 syn match   rythmExprIdentifier "@" nextgroup=rythmExpr
-syn match   rythmExprIdentifier /@[_A-Za-z0-9.?]\+[ ]\+/ nextgroup=rythmExpr
+syn match   rythmExprIdentifier /@[_A-Za-z0-9.?]\+[ ]*/ nextgroup=rythmExpr
 syn match   rythmOneLineComment "@//.*"
 syn region  rythmBlockComment   start=/@[*]/ end=/[*]@/
 syn match   rythmOverrided      "@@"
