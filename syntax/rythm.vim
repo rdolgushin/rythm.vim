@@ -52,11 +52,11 @@ if version >= 508 || !exists("did_rythm_syn_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
 
-  HiLink rythmExprIdentifier  Identifier
+  HiLink rythmExprIdentifier  Special
   HiLink rythmOneLineComment  Comment
   HiLink rythmBlockComment    Comment
   HiLink rythmOverrided       Default
-  HiLink rythmElse            Identifier
+  HiLink rythmElse            Special
 
   delcommand HiLink
 endif
