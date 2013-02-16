@@ -6,8 +6,6 @@ Rythm template engine plugin for Vim
 Installation
 ------------
 
-### Ways:
-
 * Using [pathogen](https://github.com/tpope/vim-pathogen)
 or [vundle](https://github.com/gmarik/vundle) from
 https://github.com/rdolgushin/rythm.vim
