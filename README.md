@@ -1,7 +1,7 @@
 Rythm template engine plugin for Vim
 ====================================
 
-![rythm.vim screenshot](http://i.imgur.com/6po9oul.png)
+![rythm.vim screenshot](http://i.imgur.com/McbBxhw.png)
 
 Installation
 ------------
