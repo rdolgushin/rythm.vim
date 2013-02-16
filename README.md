@@ -3,8 +3,8 @@ Rythm template engine plugin for Vim
 
 ![rythm.vim screenshot](http://i.imgur.com/McbBxhw.png)
 
-Installation
-------------
+Installation ways
+-----------------
 
 * Using [pathogen](https://github.com/tpope/vim-pathogen)
 or [vundle](https://github.com/gmarik/vundle) from
@@ -15,10 +15,10 @@ from http://www.vim.org/scripts/script.php?script_id=4438
 Usage
 -----
 
-By default it recognizes Rythm templates stored in `rythm/` folder and files
+By default, it recognizes Rythm templates stored in `rythm/` folder and files
 with double extension corresponging to `*.rythm.html` pattern, but you can
-extends this behaviour by adding custom `autocmd` in your `.vimrc` file. For
-example:
+extend this behaviour by adding custom `autocmd` in your `.vimrc` file.
+For example:
 
 ```
 au BufRead,BufNewFile */views/*.html :set ft=rythm
