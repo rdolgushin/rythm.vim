@@ -1,5 +1,5 @@
-Rythm template engine syntax plugin for Vim
-===========================================
+Rythm template engine plugin for Vim
+====================================
 
 ![rythm.vim screenshot](http://i.imgur.com/6po9oul.png)
 
@@ -29,5 +29,6 @@ au BufRead,BufNewFile */views/*.html :set ft=rythm
 Tests
 -----
 
-For testing of syntax highlighting you can clone Rythm website
-repository from https://github.com/greenlaw110/rythm-website.
+For testing of this plugin you can clone Rythm website
+repository from https://github.com/greenlaw110/rythm-website or use
+`samples-and-tests` from Rythm [repository](https://github.com/greenlaw110/play-rythm).
