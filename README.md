@@ -24,8 +24,8 @@ example:
 au BufRead,BufNewFile */views/*.html :set ft=rythm
 ```
 
-Tests
------
+Testing
+-------
 
 For testing of this plugin you can clone Rythm website
 repository from https://github.com/greenlaw110/rythm-website or use
