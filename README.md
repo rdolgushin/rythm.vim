@@ -22,7 +22,7 @@ with double extension corresponging to `*.rythm.html` pattern, but you can
 extend this behaviour by adding custom `autocmd` in your `.vimrc` file.
 For example:
 
-```
+```viml
 au BufRead,BufNewFile */views/*.html :set ft=rythm
 ```
 
