@@ -3,6 +3,7 @@ Rythm template engine plugin for Vim
 
 ![rythm.vim screenshot](http://i.imgur.com/McbBxhw.png)
 
+
 Installation ways
 -----------------
 
@@ -11,6 +12,7 @@ or [vundle](https://github.com/gmarik/vundle) from
 https://github.com/rdolgushin/rythm.vim
 * Standard [Vim way](http://vimdoc.sourceforge.net/htmldoc/usr_05.html#add-plugin)
 from http://www.vim.org/scripts/script.php?script_id=4438
+
 
 Usage
 -----
@@ -23,6 +25,18 @@ For example:
 ```
 au BufRead,BufNewFile */views/*.html :set ft=rythm
 ```
+
+
+Integration with other plugins
+------------------------------
+
+This plugin was written with built-in support of:
+
+* [vundle](https://github.com/gmarik/vundle)
+* [pathogen](https://github.com/tpope/vim-pathogen)
+* [snipMate](https://github.com/msanders/snipmate.vim)
+* [matchit](http://www.vim.org/scripts/script.php?script_id=39)
+
 
 Testing
 -------
