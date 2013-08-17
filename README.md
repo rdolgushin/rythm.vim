@@ -36,6 +36,7 @@ This plugin was written with built-in support of:
 * [pathogen](https://github.com/tpope/vim-pathogen)
 * [snipMate](https://github.com/msanders/snipmate.vim)
 * [matchit](http://www.vim.org/scripts/script.php?script_id=39)
+* [tComment](https://github.com/tomtom/tcomment_vim)
 
 
 Testing
